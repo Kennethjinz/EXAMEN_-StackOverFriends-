@@ -10,7 +10,7 @@ import persons.Person;
  *
  * @author Student
  */
-public class denunciante  {
+public class denunciante{
     private Person name;
     private Person cedula;
     private String correo;
