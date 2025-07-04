@@ -14,7 +14,7 @@ public class denunciante  {
     private Person name;
     private Person cedula;
     private String correo;
-    private String anonimo;
+    private Identidad anonimo;
 
     public Person getName() {
         return name;
@@ -36,7 +36,7 @@ public class denunciante  {
         this.name = name;
         this.cedula = cedula;
         this.correo = correo;
-        this.anonimo = anonimo ;
+        this.anonimo = Identidad.ANONIMA ;
     }
 
     @Override
