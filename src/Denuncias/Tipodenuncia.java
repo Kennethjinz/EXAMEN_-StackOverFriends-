@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
  */
 package Denuncias;
-//Contaminación del aire, Contaminación del agua, Tala ilegal, Vertido de residuos, ruido excesivo, Afectacion a la biodiversidad).
 /**
  *
  * @author Student
