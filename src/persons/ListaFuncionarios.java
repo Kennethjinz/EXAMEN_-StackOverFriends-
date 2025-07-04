@@ -10,7 +10,7 @@ import java.util.Arrays;
  *
  * @author Student
  */
-public class ListaFuncionarios {
+public class ListaFuncionarios extends Funcionario {
 private int[]Listfuncionarios = new int[100];
 
     public int[] getListfuncionarios() {
@@ -21,13 +21,14 @@ private int[]Listfuncionarios = new int[100];
         this.Listfuncionarios = Listfuncionarios;
     }
 
-    public ListaFuncionarios() {
-    
+   
+
+    public ListaFuncionarios(String departamento, String name, int cedula) {
+        super(departamento, name, cedula);
     }
-    
+
     @Override
     public String toString() {
         return "ListaFuncionarios{" + "Listfuncionarios=" + Arrays.toString(Listfuncionarios) + '}';
-    } 
+    }
 }
-
